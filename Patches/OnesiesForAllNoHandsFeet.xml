@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patch>
+	<!--Worksies -->
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[defName="Apparel_Worksie"]/apparel/bodyPartGroups/li[text()="Hands"]</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[defName="Apparel_Worksie"]/apparel/bodyPartGroups/li[text()="Feet"]</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[defName="Apparel_KidWorksie"]/apparel/bodyPartGroups/li[text()="Hands"]</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[defName="Apparel_KidWorksie"]/apparel/bodyPartGroups/li[text()="Feet"]</xpath>
+	</Operation>
+	
+	<!--Onesies -->
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[defName="Apparel_Onesie"]/apparel/bodyPartGroups/li[text()="Hands"]</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[defName="Apparel_Onesie"]/apparel/bodyPartGroups/li[text()="Feet"]</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[defName="Apparel_KidOnesie"]/apparel/bodyPartGroups/li[text()="Hands"]</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[defName="Apparel_KidOnesie"]/apparel/bodyPartGroups/li[text()="Feet"]</xpath>
+	</Operation>
+	
+	<!--Gunsies -->
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[defName="Apparel_Gunsie"]/apparel/bodyPartGroups/li[text()="Hands"]</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[defName="Apparel_Gunsie"]/apparel/bodyPartGroups/li[text()="Feet"]</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[defName="Apparel_KidGunsie"]/apparel/bodyPartGroups/li[text()="Hands"]</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[defName="Apparel_KidGunsie"]/apparel/bodyPartGroups/li[text()="Feet"]</xpath>
+	</Operation>
+	
+</Patch>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>OnesiesForAll - No Hands/Feet</name>
+	<author>Marle</author>
+	<supportedVersions>
+		<li>1.4</li>
+		<li>1.5</li>
+	</supportedVersions>
+	<packageId>marlemmo.patches.OnesiesForAll.glovesnsocks</packageId>
+	<description>Stops OnesiesForAll covering hands/feet, for use with mods that add gloves or socks etc.
+	</description>
+	<modDependencies>
+		<li>
+			<packageId>Cantaloupe.OnesiesForAll</packageId>
+			<displayName>OnesiesForAll</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2969148114</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>Cantaloupe.OnesiesForAll</li>
+	</loadAfter>
+</ModMetaData>
